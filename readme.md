@@ -11,7 +11,8 @@ booktitle = {International Conference on Multimedia and Expo},
 year = 2023
 }
 ```
-
+### License
+This project is released under the [license](./LICENSE)
 ### Usage
 ---
 #### 1. Install requirements
