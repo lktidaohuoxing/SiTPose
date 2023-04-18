@@ -1,4 +1,4 @@
-![[SiTPose_structure.png]]
+![200](./figure/SiTPose_structure.png)
 ### Introduction
 We presents a novel siamese convolutional transformer model, SiTPose, to regress relative camera pose directly.
 
@@ -44,7 +44,7 @@ python demo.py
 
 | image1 |image2 |
 |--|--|
-|  ![250](img2.png) |![250](img2.png) | 
+|  ![250](./demo/img1.png) |![250](./demo/img2.png) | 
 
 |           | t_x | t_y | t_z | q_x | q_y | q_z | q_w |
 | ----------- | --- | --- | --- | --- | --- | --- | --- |
@@ -95,4 +95,8 @@ python eval_light.py
 
 ### 4.Reference
 [8-point](https://github.com/crockwell/rel_pose)
+
 [CCT](https://github.com/SHI-Labs/Compact-Transformers)
+
+[HomographyNet](https://github.com/richard-guinto/homographynet)
+
