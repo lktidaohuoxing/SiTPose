@@ -70,7 +70,7 @@ SiTPose/
         └── db_all_med_hard_train.txt
         └── db_all_med_hard_valid.txt
 ```
-
+**generate data**
 ```bash
 cd data/7Scenes
 python3 generate_data.py
