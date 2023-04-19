@@ -116,7 +116,7 @@ def train(args):
                 epoch + 1, args.epochs,rotation_loss/len(ValidationData),trans_loss*100 / len(ValidationData),time.time() - epoch_start))
             f = open("./log/SITPose_ligth.txt","a")
         if(  (epoch+1)%20 == 0 ):
-            filename = 'SITPose_light_'+str(loss_type)  + '.pth'
+            filename = 'SITPose_light_'+str(epoch)  + '.pth'
             model_save_path = os.path.join("./checkpoints/", filename)
             state = {'epoch': args.epochs, 'state_dict': model.state_dict(),
                         'optimizer': optimizer.state_dict()}
