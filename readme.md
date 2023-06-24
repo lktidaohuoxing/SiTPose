@@ -30,7 +30,7 @@ pip3 install git+https://github.com/princeton-vl/lietorch.git
 ```
 
 #### 2. Test Demo
-Step 1. download the [SiTPose(light version)](https://drive.google.com/file/d/1eUrdVr7WOOt5cMdCUXvuJF3HJi0As_8e/view?usp=sharing) and save it bellow:
+Step 1. download the [SiTPose(light version)](https://drive.google.com/file/d/1g6VOsxVQN35s504hA625Q4A014olij1t/view?usp=sharing) and save it bellow:
 
 ```
 SiTPose/
